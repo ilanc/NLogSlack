@@ -97,7 +97,7 @@ namespace Lib.Core
 
         private NRLogger(NRLogger.Level level)
         {
-            PreNLogInit();
+            //PreNLogInit();
             Logger = NLog.LogManager.GetCurrentClassLogger();
             _LogToConsoleLevel = level;
         }
