@@ -1,0 +1,5 @@
+Bin
+obj
+Packages/*
+!Packages/repositories.config
+*.suo
